@@ -1,0 +1,28 @@
+Command line:
+   InstrMem32bit_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51235
+
+Fri Mar 15 02:01:00 2013
+
+
+ Elaboration Time: 0.124801 sec
+
+ Current Memory Usage: 702.099 Meg
+
+ Total Signals          : 5
+ Total Nets             : 8256
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 8739
+
+ Total Simulation Time: 0.202801 sec
+
+ Current Memory Usage: 702.099 Meg
+
+Fri Mar 15 02:06:01 2013
+

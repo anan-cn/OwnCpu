@@ -1,0 +1,10 @@
+Command line:
+   Shift_Left_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51327
+
+Fri Mar 15 02:08:07 2013
+
+
+ Elaboration Time: 0.124801 sec

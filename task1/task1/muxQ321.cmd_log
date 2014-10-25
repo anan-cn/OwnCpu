@@ -1,0 +1,2 @@
+vhdtdtfi -lib work muxQ321.vhd -prj task1 -o muxQ321.spl -module muxQ321 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 muxQ321.spl C:/Users/raivis/Desktop/task1/task1/muxQ321.sym 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/raivis/Desktop/Final CPU Architecture/task3/ALUCtrl.xst" -ofn "C:/Users/raivis/Desktop/Final CPU Architecture/task3/ALUCtrl.syr" 

@@ -1,0 +1,308 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.5
+//  \   \         Application : sch2hdl
+//  /   /         Filename : RegisterFile_drc.vf
+// /___/   /\     Timestamp : 04/07/2013 13:54:59
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family artix7 -verilog RegisterFile_drc.vf -w "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/RegisterFile.sch"
+//Design Name: RegisterFile
+//Device: artix7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module RegisterFile(CLK, 
+                    Rd, 
+                    RDData, 
+                    RegWrite, 
+                    Reset, 
+                    RS, 
+                    RT, 
+                    RS_OUT, 
+                    RT_OUT);
+
+    input CLK;
+    input [4:0] Rd;
+    input [31:0] RDData;
+    input RegWrite;
+    input Reset;
+    input [4:0] RS;
+    input [4:0] RT;
+   output [31:0] RS_OUT;
+   output [31:0] RT_OUT;
+   
+   wire [31:0] E;
+   wire [31:0] XLXN_839;
+   wire [31:0] XLXN_853;
+   wire [31:0] XLXN_854;
+   wire [31:0] XLXN_856;
+   wire [31:0] XLXN_858;
+   wire [31:0] XLXN_859;
+   wire [31:0] XLXN_860;
+   wire [31:0] XLXN_862;
+   wire [31:0] XLXN_865;
+   wire [31:0] XLXN_869;
+   wire [31:0] XLXN_870;
+   wire [31:0] XLXN_872;
+   wire [31:0] XLXN_911;
+   wire [31:0] XLXN_914;
+   wire [31:0] XLXN_915;
+   wire [31:0] XLXN_916;
+   wire [31:0] XLXN_917;
+   wire [31:0] XLXN_931;
+   wire [31:0] XLXN_932;
+   wire [31:0] XLXN_933;
+   wire [31:0] XLXN_934;
+   wire [31:0] XLXN_938;
+   wire [31:0] XLXN_939;
+   wire [31:0] XLXN_940;
+   wire [31:0] XLXN_941;
+   wire [31:0] XLXN_946;
+   wire [31:0] XLXN_947;
+   wire [31:0] XLXN_948;
+   wire [31:0] XLXN_949;
+   wire [31:0] XLXN_950;
+   wire [31:0] XLXN_951;
+   wire [31:0] XLXN_952;
+   
+   SIMPREG  at (.CLK(CLK), 
+               .ENABLE(E[1]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_915[31:0]));
+   SIMPREG  a0 (.CLK(CLK), 
+               .ENABLE(E[4]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_950[31:0]));
+   SIMPREG  a1 (.CLK(CLK), 
+               .ENABLE(E[5]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_951[31:0]));
+   SIMPREG  a2 (.CLK(CLK), 
+               .ENABLE(E[6]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_952[31:0]));
+   SIMPREG  a3 (.CLK(CLK), 
+               .ENABLE(E[7]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_839[31:0]));
+   SIMPREG  fp (.CLK(CLK), 
+               .ENABLE(E[30]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_939[31:0]));
+   SIMPREG  gp (.CLK(CLK), 
+               .ENABLE(E[28]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_941[31:0]));
+   SIMPREG  k0 (.CLK(CLK), 
+               .ENABLE(E[26]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_947[31:0]));
+   SIMPREG  k1 (.CLK(CLK), 
+               .ENABLE(E[27]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_946[31:0]));
+   SIMPREG  ra (.CLK(CLK), 
+               .ENABLE(E[31]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_938[31:0]));
+   SIMPREG  sp (.CLK(CLK), 
+               .ENABLE(E[29]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_940[31:0]));
+   SIMPREG  s0 (.CLK(CLK), 
+               .ENABLE(E[16]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_865[31:0]));
+   SIMPREG  s1 (.CLK(CLK), 
+               .ENABLE(E[17]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_869[31:0]));
+   SIMPREG  s2 (.CLK(CLK), 
+               .ENABLE(E[18]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_870[31:0]));
+   SIMPREG  s3 (.CLK(CLK), 
+               .ENABLE(E[19]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_872[31:0]));
+   SIMPREG  s4 (.CLK(CLK), 
+               .ENABLE(E[20]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_934[31:0]));
+   SIMPREG  s5 (.CLK(CLK), 
+               .ENABLE(E[21]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_933[31:0]));
+   SIMPREG  s6 (.CLK(CLK), 
+               .ENABLE(E[22]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_932[31:0]));
+   SIMPREG  s7 (.CLK(CLK), 
+               .ENABLE(E[23]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_931[31:0]));
+   SIMPREG  t0 (.CLK(CLK), 
+               .ENABLE(E[8]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_853[31:0]));
+   SIMPREG  t1 (.CLK(CLK), 
+               .ENABLE(E[9]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_854[31:0]));
+   SIMPREG  t2 (.CLK(CLK), 
+               .ENABLE(E[10]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_911[31:0]));
+   SIMPREG  t3 (.CLK(CLK), 
+               .ENABLE(E[11]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_856[31:0]));
+   SIMPREG  t4 (.CLK(CLK), 
+               .ENABLE(E[12]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_858[31:0]));
+   SIMPREG  t5 (.CLK(CLK), 
+               .ENABLE(E[13]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_859[31:0]));
+   SIMPREG  t6 (.CLK(CLK), 
+               .ENABLE(E[14]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_860[31:0]));
+   SIMPREG  t7 (.CLK(CLK), 
+               .ENABLE(E[15]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_862[31:0]));
+   SIMPREG  t8 (.CLK(CLK), 
+               .ENABLE(E[24]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_949[31:0]));
+   SIMPREG  t9 (.CLK(CLK), 
+               .ENABLE(E[25]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_948[31:0]));
+   SIMPREG  v0 (.CLK(CLK), 
+               .ENABLE(E[2]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_916[31:0]));
+   SIMPREG  v1 (.CLK(CLK), 
+               .ENABLE(E[3]), 
+               .RdData(RDData[31:0]), 
+               .RESET(Reset), 
+               .DOUT(XLXN_917[31:0]));
+   decoder  XLXI_2 (.destinationRegister(Rd[4:0]), 
+                   .enable(RegWrite), 
+                   .decoderOutput(E[31:0]));
+   muxQ321  XLXI_145 (.d0(XLXN_914[31:0]), 
+                     .d1(XLXN_915[31:0]), 
+                     .d2(XLXN_916[31:0]), 
+                     .d3(XLXN_917[31:0]), 
+                     .d4(XLXN_950[31:0]), 
+                     .d5(XLXN_951[31:0]), 
+                     .d6(XLXN_952[31:0]), 
+                     .d7(XLXN_839[31:0]), 
+                     .d8(XLXN_853[31:0]), 
+                     .d9(XLXN_854[31:0]), 
+                     .d10(XLXN_911[31:0]), 
+                     .d11(XLXN_856[31:0]), 
+                     .d12(XLXN_858[31:0]), 
+                     .d13(XLXN_859[31:0]), 
+                     .d14(XLXN_860[31:0]), 
+                     .d15(XLXN_862[31:0]), 
+                     .d16(XLXN_865[31:0]), 
+                     .d17(XLXN_869[31:0]), 
+                     .d18(XLXN_870[31:0]), 
+                     .d19(XLXN_872[31:0]), 
+                     .d20(XLXN_934[31:0]), 
+                     .d21(XLXN_933[31:0]), 
+                     .d22(XLXN_932[31:0]), 
+                     .d23(XLXN_931[31:0]), 
+                     .d24(XLXN_949[31:0]), 
+                     .d25(XLXN_948[31:0]), 
+                     .d26(XLXN_947[31:0]), 
+                     .d27(XLXN_946[31:0]), 
+                     .d28(XLXN_941[31:0]), 
+                     .d29(XLXN_940[31:0]), 
+                     .d30(XLXN_939[31:0]), 
+                     .d31(XLXN_938[31:0]), 
+                     .s(RS[4:0]), 
+                     .y(RS_OUT[31:0]));
+   muxQ321  XLXI_146 (.d0(XLXN_914[31:0]), 
+                     .d1(XLXN_915[31:0]), 
+                     .d2(XLXN_916[31:0]), 
+                     .d3(XLXN_917[31:0]), 
+                     .d4(XLXN_950[31:0]), 
+                     .d5(XLXN_951[31:0]), 
+                     .d6(XLXN_952[31:0]), 
+                     .d7(XLXN_839[31:0]), 
+                     .d8(XLXN_853[31:0]), 
+                     .d9(XLXN_854[31:0]), 
+                     .d10(XLXN_911[31:0]), 
+                     .d11(XLXN_856[31:0]), 
+                     .d12(XLXN_858[31:0]), 
+                     .d13(XLXN_859[31:0]), 
+                     .d14(XLXN_860[31:0]), 
+                     .d15(XLXN_862[31:0]), 
+                     .d16(XLXN_865[31:0]), 
+                     .d17(XLXN_869[31:0]), 
+                     .d18(XLXN_870[31:0]), 
+                     .d19(XLXN_872[31:0]), 
+                     .d20(XLXN_934[31:0]), 
+                     .d21(XLXN_933[31:0]), 
+                     .d22(XLXN_932[31:0]), 
+                     .d23(XLXN_931[31:0]), 
+                     .d24(XLXN_949[31:0]), 
+                     .d25(XLXN_948[31:0]), 
+                     .d26(XLXN_947[31:0]), 
+                     .d27(XLXN_946[31:0]), 
+                     .d28(XLXN_941[31:0]), 
+                     .d29(XLXN_940[31:0]), 
+                     .d30(XLXN_939[31:0]), 
+                     .d31(XLXN_938[31:0]), 
+                     .s(RT[4:0]), 
+                     .y(RT_OUT[31:0]));
+   SIMPREG  zero (.CLK(CLK), 
+                 .ENABLE(E[0]), 
+                 .RdData(RDData[31:0]), 
+                 .RESET(Reset), 
+                 .DOUT(XLXN_914[31:0]));
+endmodule

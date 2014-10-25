@@ -1,0 +1,2 @@
+vhdtdtfi -lib work InstrMem32bit.vhd -prj tb2 -o InstrMem32bit.spl -module InstrMem32bit -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 InstrMem32bit.spl C:/Users/raivis/Desktop/TB2/tb2/InstrMem32bit.sym 

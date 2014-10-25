@@ -1,0 +1,6 @@
+[Inputs]
+enable
+=destinationRegister[4:0]=
+[Outputs]
+=decoderOutput[31:0]=
+[BiDir]

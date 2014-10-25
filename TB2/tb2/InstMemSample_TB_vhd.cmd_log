@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../InstMemSample.vhd -lib work ../InstMemSample_TB.vhd -prj tb2 -o InstMemSample_TB_vhd.spl -module InstMemSample_TB_vhd -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 InstMemSample_TB_vhd.spl C:/Users/raivis/Desktop/TB2/tb2/InstMemSample_TB_vhd.sym 

@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family artix7 -verilog RegisterFile_drc.vf -w {C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/RegisterFile.sch} 
+sch2verilog -intstyle ise -family artix7 -tionly {} -tiext tfi -w {C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/RegisterFile.sch} RegisterFile.tfi 

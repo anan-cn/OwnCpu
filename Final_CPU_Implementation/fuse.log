@@ -1,0 +1,60 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Processor_TB_isim_beh.exe" -prj "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Processor_TB_beh.prj" "work.Processor_TB" "work.glbl" 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/RegisterFile.vf" into library work
+Analyzing Verilog file "d:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/SIMPREG.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Shift_Left.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Program_Counter.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/muxQ321.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/InstrMem32bit.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/BinaryMUX.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Adder.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Sp_Ram_asyncRead.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Sign_Extend.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Instruction_Fetch.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Instruction_Fetch.vhd" Line 90: Actual for formal port input is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/ControlUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/ALUCtrl.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/SingleCycleCPU.vhd" into library work
+Parsing VHDL file "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/damnTB.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:794 - "C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/muxQ321.vhd" Line 77: Statement might not cover all choices ; 'others' clause recommended
+Completed static elaboration
+Fuse Memory Usage: 102952 KB
+Fuse CPU Usage: 639 ms
+Compiling module glbl
+Compiling module RegisterFile
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package vl_types
+Compiling architecture beh_arch of entity Sp_Ram_asyncRead [\Sp_Ram_asyncRead(32,32)\]
+Compiling architecture behavioral of entity Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity InstrMem32bit [instrmem32bit_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity Shift_Left [shift_left_default]
+Compiling architecture behavioral of entity BinaryMUX [binarymux_default]
+Compiling architecture structural of entity Instruction_Fetch [instruction_fetch_default]
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity ALUCtrl [aluctrl_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Sign_Extend [sign_extend_default]
+Compiling architecture simple of entity SIMPREG [simpreg_default]
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity muxQ321 [muxq321_default]
+Compiling architecture structural of entity SingleCycleCPU [singlecyclecpu_default]
+Compiling architecture behavior of entity processor_tb
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 37 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable C:/Users/Administrator/Desktop/Final CPU Architecture/Final_CPU_Implementation/Processor_TB_isim_beh.exe
+Fuse Memory Usage: 127384 KB
+Fuse CPU Usage: 3665 ms

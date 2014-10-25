@@ -1,0 +1,5 @@
+vhdl work "SIMPREG.vhd"
+vhdl work "muxQ321.vhd"
+vhdl work "decoder.vhd"
+vhdl work "RegisterFile.vhf"
+vhdl work "rftb.vhd"

@@ -1,0 +1,6 @@
+vhdl isim_temp "Shift_Left.vhd"
+vhdl isim_temp "Program_Counter.vhd"
+vhdl isim_temp "InstrMem32bit.vhd"
+vhdl isim_temp "BinaryMUX.vhd"
+vhdl isim_temp "Adder.vhd"
+vhdl isim_temp "Instruction_Fetch.vhd"

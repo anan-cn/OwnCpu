@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Adder.vhd -prj tb2 -o Adder.spl -module Adder -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Adder.spl C:/Users/raivis/Desktop/TB2/tb2/Adder.sym 

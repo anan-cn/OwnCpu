@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/raivis/Desktop/TB2/tb2/Shift_Left_TB_isim_beh.exe" -prj "C:/Users/raivis/Desktop/TB2/tb2/Shift_Left_TB_beh.prj" "work.Shift_Left_TB" 

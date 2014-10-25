@@ -1,0 +1,2 @@
+vhdl work "../InstMemSample.vhd"
+vhdl work "../InstMemSample_TB.vhd"

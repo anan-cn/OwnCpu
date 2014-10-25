@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.xst" -ofn "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/CPU/SingleCycleCPU.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim SingleCycleCPU.ngc SingleCycleCPU_synthesis.v 

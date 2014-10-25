@@ -1,0 +1,2 @@
+vhdl isim_temp "../Sp_Ram_asyncRead.vhd"
+vhdl isim_temp "Memory_TB.vhd"

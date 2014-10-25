@@ -1,0 +1,28 @@
+Command line:
+   SingleCycleCPU_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55370
+
+Tue Nov 26 17:06:16 2013
+
+
+ Elaboration Time: 0.936006 sec
+
+ Current Memory Usage: 626.729 Meg
+
+ Total Signals          : 392
+ Total Nets             : 22636
+ Total Signal Drivers   : 323
+ Total Blocks           : 57
+ Total Primitive Blocks : 54
+ Total Processes        : 324
+ Total Traceable Variables  : 37
+ Total Scalar Nets and Variables : 23252
+
+ Total Simulation Time: 1.63801 sec
+
+ Current Memory Usage: 626.729 Meg
+
+Tue Nov 26 17:09:16 2013
+

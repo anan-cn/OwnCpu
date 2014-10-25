@@ -1,0 +1,36 @@
+.data
+number:		.word 0
+.text
+
+main:
+	addi $t1, $0, 100
+	sw $t1, number
+	lw $t2, number
+
+	beq $t1, $t2, load2
+	addi $t3, $0, 1
+	j skip1
+	
+load2:  addi $t3, $0, 2
+	
+skip1:  bne $t1, $t3, subtract
+	add $t0, $t1, $t3
+	j skip2
+	
+subtract:
+	sub $t0, $t1, $t3
+
+skip2:  bne $t1, $t2, main
+	add $t4, $t1, $t2
+	
+	and $t5, $t1, $t0
+	or $t6, $t1, $t0
+	
+	j setless
+	addi $t7, $t7, 10000
+	
+setless:
+	slt $t7, $t5, $t1
+	
+	
+	

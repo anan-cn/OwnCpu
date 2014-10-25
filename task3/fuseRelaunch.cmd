@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/task3/ControlUnit_TB_isim_beh.exe" -prj "C:/Users/rstrogonovs/Desktop/Final CPU Architecture/task3/ControlUnit_TB_beh.prj" "work.ControlUnit_TB" 

@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/raivis/Desktop/task1/task1/RegisterFile_RegisterFile_sch_tb_isim_beh.exe -prj C:/Users/raivis/Desktop/task1/task1/RegisterFile_RegisterFile_sch_tb_beh.prj work.RegisterFile_RegisterFile_sch_tb 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/raivis/Desktop/task1/task1/SIMPREG.vhd" into library work
+Parsing VHDL file "C:/Users/raivis/Desktop/task1/task1/muxQ321.vhd" into library work
+Parsing VHDL file "C:/Users/raivis/Desktop/task1/task1/decoder.vhd" into library work
+Parsing VHDL file "C:/Users/raivis/Desktop/task1/task1/RegisterFile.vhf" into library work
+Parsing VHDL file "C:/Users/raivis/Desktop/task1/task1/rftb.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:794 - "C:/Users/raivis/Desktop/task1/task1/muxQ321.vhd" Line 77: Statement might not cover all choices ; 'others' clause recommended
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture simple of entity SIMPREG [simpreg_default]
+Compiling architecture behavioral of entity muxQ321 [muxq321_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity registerfile_registerfile_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable C:/Users/raivis/Desktop/task1/task1/RegisterFile_RegisterFile_sch_tb_isim_beh.exe
+Fuse Memory Usage: 53740 KB
+Fuse CPU Usage: 1778 ms

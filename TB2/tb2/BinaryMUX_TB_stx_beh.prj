@@ -1,0 +1,2 @@
+vhdl isim_temp "BinaryMUX.vhd"
+vhdl isim_temp "BinaryMUX_TB.vhd"

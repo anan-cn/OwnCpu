@@ -1,0 +1,8 @@
+[Inputs]
+ENABLE
+CLK
+RESET
+=RdData[31:0]=
+[Outputs]
+=DOUT[31:0]=
+[BiDir]

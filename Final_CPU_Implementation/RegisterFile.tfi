@@ -1,0 +1,17 @@
+// Verilog instantiation template created from schematic C:\Users\rstrogonovs\Desktop\Final CPU Architecture\CPU\RegisterFile.sch - Sun Apr 07 13:55:06 2013
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   RegisterFile UUT (
+		.RDData(    ), 
+		.CLK(    ), 
+		.Reset(    ), 
+		.RS(    ), 
+		.RS_OUT(    ), 
+		.RT(    ), 
+		.RT_OUT(    ), 
+		.Rd(    ), 
+		.RegWrite(    )
+   );

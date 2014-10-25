@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="tb2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Adder.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Adder.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Adder.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Adder.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Adder.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Adder_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Adder_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BinaryMUX.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="BinaryMUX.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="BinaryMUX.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="BinaryMUX.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="BinaryMUX.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BinaryMUX_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BinaryMUX_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InstMemSample_TB_vhd.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="InstMemSample_TB_vhd.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="InstMemSample_TB_vhd.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="InstMemSample_TB_vhd.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="InstMemSample_TB_vhd.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="InstMemSample_TB_vhd_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InstMemSample_TB_vhd_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InstrMem32bit.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="InstrMem32bit.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="InstrMem32bit.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="InstrMem32bit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="InstrMem32bit.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="InstrMem32bit_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InstrMem32bit_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Fetch.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Instruction_Fetch.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Instruction_Fetch.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Instruction_Fetch_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Fetch_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Instruction_Fetch_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Fetch_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Memory_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Memory_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Program_Counter.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Program_Counter.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Program_Counter.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Program_Counter.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Program_Counter.xst"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Program_Counter_TB.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Program_Counter_TB.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Program_Counter_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Program_Counter_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Program_Counter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Program_Counter_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Shift_Left.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Shift_Left.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Shift_Left.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Shift_Left.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Shift_Left.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Shift_Left_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Shift_Left_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Shift_Left_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Shift_Left_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sp_Ram_asyncRead.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sp_Ram_asyncRead.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Sp_Ram_asyncRead.xst"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ram_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ram_tb_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1363123583" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1363123583">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1363312247" xil_pn:in_ck="-9190006094407411853" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1363312246">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../InstMemSample.vhd"/>
+      <outfile xil_pn:name="../InstMemSample_TB.vhd"/>
+      <outfile xil_pn:name="../Sp_Ram_asyncRead.vhd"/>
+      <outfile xil_pn:name="Adder.vhd"/>
+      <outfile xil_pn:name="Adder_TB.vhd"/>
+      <outfile xil_pn:name="BinaryMUX.vhd"/>
+      <outfile xil_pn:name="BinaryMUX_TB.vhd"/>
+      <outfile xil_pn:name="InstrMem32bit.vhd"/>
+      <outfile xil_pn:name="InstrMem32bit_TB.vhd"/>
+      <outfile xil_pn:name="Instruction_Fetch.vhd"/>
+      <outfile xil_pn:name="Instruction_Fetch_TB.vhd"/>
+      <outfile xil_pn:name="Memory_TB.vhd"/>
+      <outfile xil_pn:name="Program_Counter.vhd"/>
+      <outfile xil_pn:name="Program_Counter_TB.vhd"/>
+      <outfile xil_pn:name="Shift_Left.vhd"/>
+      <outfile xil_pn:name="Shift_Left_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1363313263" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3829124296549603395" xil_pn:start_ts="1363313263">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1363313263" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4888088848438130011" xil_pn:start_ts="1363313263">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1363123589" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2425026506531992923" xil_pn:start_ts="1363123589">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1363312255" xil_pn:in_ck="-9190006094407411853" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1363312255">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../InstMemSample.vhd"/>
+      <outfile xil_pn:name="../InstMemSample_TB.vhd"/>
+      <outfile xil_pn:name="../Sp_Ram_asyncRead.vhd"/>
+      <outfile xil_pn:name="Adder.vhd"/>
+      <outfile xil_pn:name="Adder_TB.vhd"/>
+      <outfile xil_pn:name="BinaryMUX.vhd"/>
+      <outfile xil_pn:name="BinaryMUX_TB.vhd"/>
+      <outfile xil_pn:name="InstrMem32bit.vhd"/>
+      <outfile xil_pn:name="InstrMem32bit_TB.vhd"/>
+      <outfile xil_pn:name="Instruction_Fetch.vhd"/>
+      <outfile xil_pn:name="Instruction_Fetch_TB.vhd"/>
+      <outfile xil_pn:name="Memory_TB.vhd"/>
+      <outfile xil_pn:name="Program_Counter.vhd"/>
+      <outfile xil_pn:name="Program_Counter_TB.vhd"/>
+      <outfile xil_pn:name="Shift_Left.vhd"/>
+      <outfile xil_pn:name="Shift_Left_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1363313279" xil_pn:in_ck="-9190006094407411853" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="634143592029857600" xil_pn:start_ts="1363313263">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Shift_Left_TB_beh.prj"/>
+      <outfile xil_pn:name="Shift_Left_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1363313280" xil_pn:in_ck="-1555135704253495367" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6127547544332931267" xil_pn:start_ts="1363313279">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Shift_Left_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

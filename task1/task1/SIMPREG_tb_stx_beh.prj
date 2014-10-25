@@ -1,0 +1,2 @@
+vhdl isim_temp "SIMPREG.vhd"
+vhdl isim_temp "SIMPREG_tb.vhd"

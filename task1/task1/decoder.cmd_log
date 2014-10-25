@@ -1,0 +1,2 @@
+vhdtdtfi -lib work decoder.vhd -prj task1 -o decoder.spl -module decoder -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 decoder.spl C:/Users/raivis/Desktop/task1/task1/decoder.sym 

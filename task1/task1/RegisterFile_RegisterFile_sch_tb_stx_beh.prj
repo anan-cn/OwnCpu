@@ -1,0 +1,5 @@
+vhdl isim_temp "SIMPREG.vhd"
+vhdl isim_temp "muxQ321.vhd"
+vhdl isim_temp "decoder.vhd"
+vhdl isim_temp "RegisterFile.vhf"
+vhdl isim_temp "rftb.vhd"

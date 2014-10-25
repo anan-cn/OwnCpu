@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Program_Counter.vhd -prj tb2 -o Program_Counter.spl -module Program_Counter -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Program_Counter.spl C:/Users/raivis/Desktop/TB2/tb2/Program_Counter.sym 
